@@ -1,5 +1,5 @@
 print("Get max, min, swap value of variables")
-print("\n !.Max \n2.Min \n3.Swap")
+print("\n 1.Max \n2.Min \n3.Swap")
 a,b = map(int,(input("Enter two numbers ").split(",")))
 choice=int(input("Enter your choice: "))
 if(choice==1):
