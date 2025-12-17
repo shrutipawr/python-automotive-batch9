@@ -1,5 +1,5 @@
 
-'''***What is Scripting?
+'''**Scripting
 Scripting is the process of writing small programs  that are executed by an interpreter to automate tasks
 and control applications without compilation.
 
@@ -104,6 +104,30 @@ for i in range(1, 6):
 2
 4
 5'''
+
+
+# List: A list is an ordered and mutable collection of elements.
+
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers)
+
+#Output: [1, 2, 3, 4]
+
+# Tuple: A tuple is an ordered and immutable collection of elements.
+
+t = (10, 20, 30)
+print(t[1])
+
+#Output:20
+
+# Dictionary: A dictionary stores data in key–value pairs.
+
+student = {"name": "Asha", "age": 21}
+student["age"] = 22
+print(student)
+
+#Output: {'name': 'Asha', 'age': 22}
 
 
 
